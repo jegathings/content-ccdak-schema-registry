@@ -31,7 +31,7 @@ public class SchemaRegistryConsumerMain {
             for (final ConsumerRecord<String, Person> record : records) {
                 final String key = record.key();
                 final Person value = record.value();
-                System.out.println("key=" + key + ", value=" + value);
+                System.out.println("keykey=" + key + ", value=" + value);
             }
         }
     }
